@@ -1,75 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADMINISTRACION CONDOMINIO</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Administración del condominio</h1>
-        <img src="./src/icono de campana.png" alt="100" width="100">
-        <p> Antonio Guevara <span>AG</span></p>
+      <h1>Administración del condominio</h1>
+      <img src="./src/icono de campana.png" alt="100" width="100" />
+      <p>Antonio Guevara <span>AG</span></p>
     </header>
     <main>
+      <nav>
+        <h2>
+          Condominios admin
+          <img src="./src/edificio.png" alt="Icono de edificio" width="50" />
+        </h2>
+        <ul>
+          <li>
+            <a href="#">Panel Principal</a>
+          </li>
+          <li>
+            <a href="#">Residentes</a>
+          </li>
+          <li>
+            <a href="#">Pagos y cuotas</a>
+          </li>
+          <li>
+            <a href="#">Mantenimiento</a>
+          </li>
+          <li>
+            <a href="#">Avisos</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
         <div>
-            <h2>Condominios admin <img src="./src/edificio.png" alt="50" width="50"></h2>
-            <ul>
-                <li>
-                    <a href="...">Panel Principal</a>
-                </li>
-                <li>
-                    <a href="...">Residentes</a>
-                </li>
-                <li>
-                    <a href="...">Pagos y cuotas</a>
-                </li>
-                <li>
-                    <a href="...">Mantenimiento</a>
-                </li>
-                <li>
-                    <a href="...">Avisos</a>
-                </li>
-            </ul>
+          <h3>
+            Cobranza del mes
+            <img src="./src/billetera.png" alt="50" width="50" />
+          </h3>
+          <p><span id="Pago_del_mes">24,500</span> Pesos</p>
         </div>
         <div>
-            <div>
-                <h3>Cobranza del mes <img src="./src/billetera.png" alt="50" width="50"></h3>
-                <p><span id="Pago_del_mes">24,500</span> Pesos</p>
-            </div>
-            <div>
-                <h3>Cuotas pendientes <img src="./src/alarma.png" alt="40" width="40"></h3>
-                <p><span id="Departamentos_Adeudo">Departamentos con adeudo</span>Restante</p>
-            </div>
-            <div>
-                <h4>Tickers de Mantenimiento <img src="./src/tecnico.png" alt="40" width="40"></h4>
-                <p><span id="Tickes_de_mantenimiento">Requieren atencion urgente</span></p>
-            </div>
-            <div>
-                <p></p>
-            </div>
-            <div>
-                <h3>Pagos recibidos <img src="./src/dar-dinero.png" alt="40" width="40"></h3>
-                <ul>
-                    <li>
-                        <p><span id="Numero_departamento">103 Pago del mes</span><span id="Cantidad"> $</span></p>
-                        <p><span id="Numero_departamento">402 Pago del mes</span><span id="Cantidad"> $</span></p>
-                        <p><span id="Numero_departamento">503 Pago del mes</span><span id="Cantidad"> $</span></p>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3>Accesos Directos</h3>
-                <button class="btn-info"><span>01</span> Publicas aviso</button>
-                <button class="btn-info"><span>02</span> Generar Recibo</button>
-                <button class="btn-info"><span>03</span> Nuevo residente</button>
-                <button class="btn-info"><span>04</span> Registrar gasto</button>
-            </div>
+          <h3>
+            Cuotas pendientes <img src="./src/alarma.png" alt="40" width="40" />
+          </h3>
+          <p>
+            <span id="Departamentos_Adeudo">Departamentos con adeudo</span
+            >Restante
+          </p>
         </div>
+        <div>
+          <h4>
+            Tickers de Mantenimiento
+            <img src="./src/tecnico.png" alt="40" width="40" />
+          </h4>
+          <p>
+            <span id="Tickes_de_mantenimiento">Requieren atencion urgente</span>
+          </p>
+        </div>
+        <div>
+          <p></p>
+        </div>
+        <div>
+          <h3>
+            Pagos recibidos
+            <img src="./src/dar-dinero.png" alt="40" width="40" />
+          </h3>
+          <ul>
+            <li>
+              <p>
+                <span id="Numero_departamento">103 Pago del mes</span
+                ><span id="Cantidad"> $</span>
+              </p>
+              <p>
+                <span id="Numero_departamento">402 Pago del mes</span
+                ><span id="Cantidad"> $</span>
+              </p>
+              <p>
+                <span id="Numero_departamento">503 Pago del mes</span
+                ><span id="Cantidad"> $</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Accesos Directos</h3>
+          <button class="btn-info"><span>01</span> Publicas aviso</button>
+          <button class="btn-info"><span>02</span> Generar Recibo</button>
+          <button class="btn-info"><span>03</span> Nuevo residente</button>
+          <button class="btn-info"><span>04</span> Registrar gasto</button>
+        </div>
+      </div>
     </main>
     <footer>
-        <h3>Cerrar Sesion <img src="./src/salida.png" alt="30" width="30"></h3>
-        <button class="btn-info">Salida</button>
+      <h3>Cerrar Sesion <img src="./src/salida.png" alt="30" width="30" /></h3>
+      <button class="btn-info">Salida</button>
     </footer>
-</body>
+  </body>
 </html>
